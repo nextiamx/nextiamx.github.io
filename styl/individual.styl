@@ -1,3 +1,42 @@
+panel-width = 960px
+nav-height = 40px
+
+
+
 html
   margin 0
   padding 0
+
+
+.container
+	width 100%
+
+
+
+
+body.nextia
+	@extend .container
+	margin 0
+	padding 0
+
+	
+
+section
+.section
+	width panel-width
+
+.content 
+	background-color darkgrey
+
+
+.nav-container
+	@extend .container
+	background-color gray
+	height nav-height
+
+	nav 
+		@extend .section
+		height @height
+		margin 0px auto
+
+

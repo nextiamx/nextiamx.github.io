@@ -2,3 +2,28 @@ html {
   margin: 0;
   padding: 0;
 }
+.container,
+body.nextia,
+.nav-container {
+  width: 100%;
+}
+body.nextia {
+  margin: 0;
+  padding: 0;
+}
+section,
+.section,
+.nav-container nav {
+  width: 960px;
+}
+.content {
+  background-color: #a9a9a9;
+}
+.nav-container {
+  background-color: #808080;
+  height: 40px;
+}
+.nav-container nav {
+  height: 40px;
+  margin: 0px auto;
+}

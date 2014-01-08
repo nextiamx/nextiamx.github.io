@@ -6,15 +6,18 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
+        <!-- syntax highlighting CSS
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
+        Custom CSS
         <link rel="stylesheet" href="/css/main.css">
 
-    </head>
-    <body>
+        Custom CSS -->
+        <link rel="stylesheet" href="/css/all.css">
 
+    </head>
+    <body class="nextia">
+        <!--
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
@@ -39,6 +42,31 @@
             </div>
           </div>
         </div>
+        -->
 
+        <div class="container nav-container">
+          <nav>
+            {% for member in site.pages%}
+              <li>
+                <a href="https://github.com/{{ member.github }}">
+                  {{ page.url }}
+                </a>
+              </li>
+            {% endfor %}
+          </nav>
+        </div>
+
+        <header>
+          
+
+        </header>
+
+        <div class="container content">
+          {{content}}  
+        </div>
+
+        <footer>
+          
+        </footer>
     </body>
 </html>
