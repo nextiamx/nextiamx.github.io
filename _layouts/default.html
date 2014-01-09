@@ -14,6 +14,8 @@
 
         Custom CSS -->
         <link rel="stylesheet" href="/css/all.css">
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+
 
     </head>
     <body class="nextia">
@@ -44,25 +46,50 @@
         </div>
         -->
 
-        <div class="container nav-container">
-          <nav>
-            {% for member in site.pages%}
-              <li>
-                <a href="https://github.com/{{ member.github }}">
-                  {{ page.url }}
-                </a>
-              </li>
-            {% endfor %}
-          </nav>
-        </div>
+        
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="/">
+                Nextia
+              </a>
+            </li>
+            <li>
+              <a href="/servicios/">
+                Servicios
+              </a>
+            </li>
 
-        <header>
+            <li>
+              <a href="7proyectos/">
+                Proyectos
+              </a>
+            </li>
+
+            <li>
+              <a href="/contacto/">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+
+        <header class="main-header">
+          <hgroup>
+            <h1>Nextia</h1>
+            <h2>Internet Services</h2>
+          </hgroup>
           
-
+          <div class="header-decoration">
+            
+          </div>
         </header>
 
-        <div class="container content">
-          {{content}}  
+        <div class="container">
+          <div class="content"> 
+            {{content}}  
+          </div>
         </div>
 
         <footer>

@@ -1,8 +1,69 @@
 panel-width = 960px
 nav-height = 40px
+air-space = 4px
+
+header-height = 290px
+
+html
+body
+	font-family 'News Cycle', sans-serif
+	margin 0
+	padding 0
+
+.container 
+	width 100%
+	margin-top nav-height
+	.content 
+		width panel-width
+		margin 0 auto
 
 
+.main-nav
+	width 100%
+	height nav-height
+	background-color gray
+	box-shadow 0 0 2px black
+	position absolute
+	top header-height
+	ul
+		padding 0
+		margin 0 auto
+		width panel-width
+		list-style none
+	li 
+		background-color darkgrey
+		display inline-block
+		height @height
+		margin-left air-space
+		&:first-child
+			margin-left 0
+		a
+			display block
+			line-height @height
+			padding 0 air-space
+			text-decoration none
+			color purple
 
+			&:hover 
+				color white
+
+.main-header
+	height header-height
+
+	h1
+		margin 0
+		text-align center
+		line-height 210px
+		background-color steelblue
+		color skyblue
+	h2 
+		line-height 80px
+		text-align center
+		margin 0
+		background-color skyblue
+		color steelblue
+
+/*
 html
   margin 0
   padding 0
@@ -27,6 +88,9 @@ section
 
 .content 
 	background-color darkgrey
+	h1 
+		margin:0
+	
 
 
 .nav-container
@@ -38,5 +102,8 @@ section
 		@extend .section
 		height @height
 		margin 0px auto
+
+
+*/
 
 
