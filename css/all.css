@@ -3,22 +3,30 @@ body {
   font-family: 'News Cycle', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fbfbfb;
+  color: #333;
 }
 .container {
   width: 100%;
   margin-top: 40px;
+  padding: 30px 0;
 }
 .container .content {
   width: 960px;
   margin: 0 auto;
 }
+.container h1,
+.container h2,
+.container h3 {
+  color: #94002d;
+}
 .main-nav {
   width: 100%;
   height: 40px;
-  background-color: #808080;
+  background-color: #1f7d63;
   box-shadow: 0 0 2px #000;
   position: absolute;
-  top: 290px;
+  top: 320px;
 }
 .main-nav ul {
   padding: 0;
@@ -27,7 +35,6 @@ body {
   list-style: none;
 }
 .main-nav li {
-  background-color: #a9a9a9;
   display: inline-block;
   height: 40px;
   margin-left: 4px;
@@ -36,29 +43,54 @@ body {
   margin-left: 0;
 }
 .main-nav li a {
+  color: #e8fc3f;
   display: block;
   line-height: 40px;
   padding: 0 4px;
   text-decoration: none;
-  color: #800080;
 }
 .main-nav li a:hover {
-  color: #fff;
+  color: rgba(255,255,255,0.5);
 }
 .main-header {
-  height: 290px;
+  height: 320px;
+  background-color: #1f7d63;
+}
+.main-header .header-bg {
+  background-position: center 45%;
+  background-image: url("../img/launch.jpg");
+  background-size: 100% auto;
+  height: 320px;
+  width: 960px;
+  margin: 0 auto;
+}
+.main-header .header-mask-left {
+  width: 100px;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right rgba(31,114,105,0) 0% rgba(31,114,105,0));
 }
 .main-header h1 {
-  margin: 0;
-  text-align: center;
-  line-height: 210px;
-  background-color: #4682b4;
-  color: #87ceeb;
+  margin: 0 0 0 18px;
+  text-align: left;
+  padding-top: 60px;
+  color: #e40045;
+  font-size: 3.4em;
+  text-shadow: 1px 0px 1px rgba(255,255,255,0.5), 0px 1px 1px rgba(255,255,255,0.5), -1px 0px 1px rgba(255,255,255,0.5), 0px -1px 1px rgba(255,255,255,0.5);
 }
 .main-header h2 {
-  line-height: 80px;
-  text-align: center;
-  margin: 0;
-  background-color: #87ceeb;
-  color: #4682b4;
+  margin: 0 0 0 18px;
+  font-size: 2.1em;
+  color: #e8fc3f;
+  text-shadow: 1px 0px 1px rgba(255,255,255,0.5), 0px 1px 1px rgba(255,255,255,0.5), -1px 0px 1px rgba(255,255,255,0.5), 0px -1px 1px rgba(255,255,255,0.5);
+}
+.circle {
+  width: 200px;
+  background-color: #e8fc3f;
+  height: 200px;
+  border-radius: 100px;
+}
+footer {
+  height: 160px;
+  background-color: #1f7d63;
 }

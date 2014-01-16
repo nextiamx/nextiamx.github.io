@@ -4,23 +4,40 @@ title:  "Servicios"
 date:   2014-01-06 23:32:21
 ---
 
-Servicios
-===
+#Servicios
+
+
+##Desarrollo de Aplicaciones
+
+Sabemos que ninguna empresa es igual a otra, por lo tanto desarrollar una aplicación específica para tu negocio parmitirá automatizar todas las tareas repetitivas, tener el control de cada uno de los proceso asi como tener reportes con la información clara y precisa que necesitas para ajuatar estrategias, optimizar al máximo tus recursos.
+
+
+Tenemos amplia experiencia desarrollando **aplicacionees especializadas** para tu negocio o empresa.
+###Aplicaciones Web
+
+
+###Aplicaciones de Escritorio 
+
+###Aplicaciones multi plataforma (Windows, Mac, Linux)
+
+###Aplicaciones móviles
+
+
+##Sitios Web Profesionales
+
+En la actualidad, la gran mayoría de negocios necesita de un sitio web, tanto para dar a conocer sus productos, servicios, ubicación, etcétera. Así como para tener un canal de comunicación con sus clientes. Nos especializamos en la creación de sitios web memorables, requerda que tu sitio web es *tu carta de presentación ante el mundo*. 
 
 
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+##Gestión y Asesoría en informática
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight javascript %}
-function () {
-	console.log('alexei');
-}
-{% endhighlight %}
+##Desarrollo de Proyectos especializados
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+**¿Tienes una idea grandiosa?** Nosotros podemos llevarla a cabo, nuestro equipo cuenta con entusiastas de la innovación comprometidos con la sociedad y los proyectos que puedan mejoarala, platiquemos, para poderla llevar a cabo. [Contáctanos][nextia-contacto].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+
+
+
+[nextia-contacto]: /contacto
+
